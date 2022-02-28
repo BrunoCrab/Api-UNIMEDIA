@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unimedia</title>
+
+   <link rel="stylesheet" href="bootstrap.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   
+
+</head>
+<body>
+
+
+  <!-- Barra de navegracion ----------------------------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container-fluid">
+
+          <!-- Marca del lado izquierdo -->
+          <a class="navbar-brand" href="#">Unimedia</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Opciones de la barra de navecaion-->
+
+        
+
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+
+
+  
+      
+              <li class="nav-item">
+                <a class="nav-link" href="#">Perfil</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nosotros</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Iniciar</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Registrar</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Crear noticia</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gestion</a>
+              </li>
+
+
+      
+            </ul>
+
+            <!-- Barra de busqueda -->
+            <form class="d-flex col-sm-4">
+              <input class="form-control"  type="text" placeholder="Buscar...">
+              <button class="btn btn-secondary " type="submit">Buscar</button>
+            </form>
+
+
+
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <!--  Bloque de las ultimas noticias ----------------------------------------------------------------------------------------------------------->
+      <div class="background-image">
+
+        <!--   ----------------------------------------------------------------------------------------------------------->
+        <div class="d-flex align-content-center flex-wrap" >
+          <button type="button" class="btn btn-outline-secondary">Secondary</button>
+          <button type="button" class="btn btn-outline-success">Success</button>
+          <button type="button" class="btn btn-outline-info">Info</button>
+          <button type="button" class="btn btn-outline-warning">Warning</button>
+          <button type="button" class="btn btn-outline-danger">Danger</button>
+          <button type="button" class="btn btn-outline-dark">Dark</button>
+ 
+          
+        </div>
+      <br>
+      <br>
+
+
+
+
+      <!--  Titulo del bloque-->
+      <div  class="d-flex justify-content-center">
+      <h2>uLTIMAS NOTICIAS</h2>
+        </div>
+      <br>
+
+  
+      
+      <!-- Primera seccion donde aparecen las primeras 3 noticias de la pagina ----------------------------------------------------------------------------------------------------------->
+      <div  class="d-flex justify-content-center">
+
+
+        <!-- Noticia -->
+        <div class="card mb-3">
+            <h3 class="card-header">Los ark</h3>
+            <div class="card-body">
+              <h5 class="card-title">Ayuda</h5>
+              <span class="badge rounded-pill bg-danger">Danger</span>
+            </div>
+            <img src="https://i.blogs.es/8df7b0/71aapizi3is/450_1000.jpeg" width="100%" height="200" alt="">
+          
+            <div class="card-footer text-muted">
+              2/15/22
+            </div>
+          </div>
+          
+          <!-- Noticia -->
+        <div class="card mb-3">
+            <h3 class="card-header">La uaeneele </h3>
+            <div class="card-body">
+              <h5 class="card-title">Aguas con...</h5>
+              <span class="badge rounded-pill bg-warning">Warning</span>
+            </div>
+            
+              <img src="https://www.uanl.mx/wp-content/uploads/2018/09/85-aniversario-uanl-torre-rectoria.jpg" width="100%" height="200" alt="">
+            
+    
+            <div class="card-footer text-muted">
+              2/15/22
+            </div>
+          </div>
+
+          <!-- Noticia  -->
+          <div class="card mb-3">
+            <h3 class="card-header">¿Cansado?</h3>
+            <div class="card-body">
+              <h5 class="card-title">Becarios descubren que...</h5>
+              <span class="badge rounded-pill bg-success">Success</span>
+            </div>
+           <img src="https://vinculotic.com/wp-content/uploads/2020/04/buenos-habitos-estudiantes-linea-01.jpg" width="100%" height="200" alt="">
+            <div class="card-footer text-muted">
+              2/15/22
+            </div>
+          </div>
+
+       <!--Fin de la seccion  -->   
+      </div>
+
+
+      <!-- Segunda seccion que contiene las siguientes 3 noticias ----------------------------------------------------------------------------------------------------------->
+      <div  class="d-flex justify-content-center">
+
+        <!-- Noticia -->
+        <div class="card mb-3">
+            <h3 class="card-header">Card header</h3>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <span class="badge rounded-pill bg-dark">Dark</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+            </svg>
+            <div class="card-footer text-muted">
+              2/15/22
+            </div>
+          </div>
+   
+
+        <!--Noticia -->
+        <div class="card mb-3">
+            <h3 class="card-header">Card header</h3>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <span class="badge rounded-pill bg-dark">Dark</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+            </svg>
+    
+            <div class="card-footer text-muted">
+              2/15/22
+            </div>
+          </div>
+
+          <!--Noticia  -->
+          <div class="card mb-3">
+            <h3 class="card-header">Card header</h3>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <span class="badge rounded-pill bg-dark">Dark</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+            </svg>
+            <div class="card-footer text-muted">
+              2/15/22
+            </div>
+          </div>
+      </div>
+    <!-- Enumeracion de paginas. ----------------------------------------------------------------------------------------------------------->
+    <div class="d-flex justify-content-center">
+      <ul class="pagination pagination-lg">
+        <li class="page-item disabled">
+          <a class="page-link" href="#">&laquo;</a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">4</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">5</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">&raquo;</a>
+        </li>
+      </ul>
+    </div>
+      <!--Fin de la seccion  ----------------------------------------------------------------------------------------------------------->
+    </div>
+    
+
+
+    <!-- Seccion de las noticias tendencia -------------------------------------------------------------------------------- -->
+    <div class="background">
+
+
+   
+       <br>
+       <!-- Titulo ------------------------------------------------------------------------------------------------------------->
+       <div  class="d-flex justify-content-center">
+        <h2>TENDENCIAS</h2>
+        </div>
+          <br>
+
+       <!-- seccion que contiene las noticias  -->   
+      <div  class="d-flex justify-content-center">
+
+        <!-- noticia -->
+        <div class="card mb-3">
+            <h3 class="card-header">Card header</h3>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <span class="badge rounded-pill bg-dark">Dark</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+            </svg>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+          </div>
+   
+                 <!-- noticia -->
+        <div class="card mb-3">
+            <h3 class="card-header">Card header</h3>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <span class="badge rounded-pill bg-dark">Dark</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+            </svg>
+    
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+          </div>
+
+                 <!-- noticia -->
+          <div class="card mb-3">
+            <h3 class="card-header">Card header</h3>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <span class="badge rounded-pill bg-dark">Dark</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+            </svg>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+          </div>
+
+                 <!-- noticia -->
+          <div class="card mb-3">
+            <h3 class="card-header">Card header</h3>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <span class="badge rounded-pill bg-dark">Dark</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+            </svg>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+          </div>
+
+                 <!-- noticia -->
+          <div class="card mb-3">
+            <h3 class="card-header">Card header</h3>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <span class="badge rounded-pill bg-dark">Dark</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+            </svg>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+          </div>
+      </div>
+
+       <!-- fin de la seccion -------------------------------------------------------------------->
+    </div>
+  
+
+           <!-- footer----------------------------------------------------------------------- -->
+
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Conectate con nosotros:</span>
+          </div>
+    
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Unimedia
+                </h6>
+                <p>
+                  Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+  
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Creadores
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">BrunoCrab</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Amarillopdejupiter</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contactos
+                </h6>
+                <p><i class="fas fa-home me-3"></i> Nuevo Leon, NL 10012, MX</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      
+     
+   
+
+</body>
+</html>
